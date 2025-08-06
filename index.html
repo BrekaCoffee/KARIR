@@ -32,7 +32,10 @@
 
       <section class="content">
         <div class="media fade-in">
-          <button id="play-button" onclick="startMusic()">🎵 Putar Musik</button>
+           <audio id="bg-music" src="musik.mp4" loop></audio>
+  <button id="play-music-button" onclick="document.getElementById('bg-music').play(); this.style.display='none';">
+    Putar Musik
+  </button>
           <img src="qoute.png" alt="Breka Quote" />
         </div>
       </section>
@@ -47,4 +50,5 @@
     <script src="script.js"></script>
   </body>
   </html>
+
 
