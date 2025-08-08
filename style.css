@@ -70,7 +70,7 @@ body {
 }
 .hero p {
   font-family: 'SourceSans', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   margin-bottom: 25px;
 }
 .cta-button {
@@ -84,7 +84,7 @@ body {
 }
 .cta-button:hover {
   background: #e0e0e0;
-  color: #222;
+  color: #100f0f;
 }
 .content {
   padding: 60px 20px;
@@ -92,12 +92,12 @@ body {
   justify-content: center;
 }
 .media {
-  max-width: 100%;
+  max-width: 90%;
   width: 480px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 .media img {
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -111,10 +111,3 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-
-
-
-
-
-
-
