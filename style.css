@@ -101,6 +101,33 @@ body {
   border-radius: 10px;
 }
 
+/* 📌 Layout 2 kolom sejajar */ 
+.media-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap:20px;
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+.media-item {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-item img {
+  width: 75%;
+  height: 94%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: block;
+}
+
 /* ✨ ANIMASI FADE IN */
 .fade-in {
   opacity: 0;
@@ -111,4 +138,5 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
 
