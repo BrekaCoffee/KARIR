@@ -70,7 +70,7 @@ body {
 }
 .hero p {
   font-family: 'SourceSans', sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 25px;
 }
 .cta-button {
@@ -100,6 +100,46 @@ body {
   width: 100%;
   border-radius: 10px;
 }
+/* Popup background */
+    .popup {
+        display: none;
+        position: fixed;
+        z-index: 999;
+        padding-top: 60px;
+        left: 0; top: 0;
+        width: 70%; height: 70%;
+        background-color: rgba(0,0,0,0.8);
+    }
+    /* Popup content */
+    .popup-content {
+        margin: auto;
+        display: block;
+        max-width: 50%;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    /* Close button */
+    .close {
+        position: absolute;
+        top: 20px; right: 30px;
+        color: white;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    /* Download button */
+    .download-btn {
+        position: absolute;
+        top: 20px; left: 30px;
+        background: #ff9800;
+        color: white;
+        padding: 8px 14px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .download-btn:hover {
+        background: #e68900;
+    }
 
 /* ✨ ANIMASI FADE IN */
 .fade-in {
@@ -111,4 +151,3 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-
