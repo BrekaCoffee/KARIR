@@ -61,8 +61,24 @@ body {
   color: white;
   text-align: center;
   padding: 80px 20px 60px;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
+.logo-wrapper {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px auto;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2)  ;
+}
+
+.logo-wrapper img {
+  width: 100px;
+  height: auto;
+}
+
 .hero h1 {
   font-family: 'Bomber Balloon', sans-serif;
   font-size: 2.8rem;
@@ -70,22 +86,28 @@ body {
 }
 .hero p {
   font-family: 'SourceSans', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-bottom: 25px;
 }
+/* 🎯 TOMBOL MENU */
 .cta-button {
-  background: white;
-  color: #55abe5;
-  padding: 12px 25px;
-  text-decoration: none;
-  border-radius: 8px;
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: #ffffff;   /* putih */
+  color: #55abe5;              /* teks biru */
+  font-size: 18px;
   font-weight: bold;
-  transition: background 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
+
 .cta-button:hover {
-  background: #e0e0e0;
-  color: #100f0f;
-}
+  background-color: #FFD321;   /* biru saat hover */
+  color: #ffffff;              /* teks putih saat hover */
+} 
+
 .content {
   padding: 60px 20px;
   display: flex;
