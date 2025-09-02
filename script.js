@@ -18,9 +18,13 @@ window.addEventListener('load', () => {
     document.getElementById('loading-screen').style.display = 'none';
     document.getElementById('main-content').classList.remove('hidden');
   }, 3000);
-});
+  var popup = document.getElementById("myPopup");
+    var img = document.getElementById("foto");
+    var popupImg = document.getElementById("popupImg");
+    var downloadLink = document.getElementById("downloadLink");
+    var closeBtn = document.getElementsByClassName("close")[0];
 
-// Saat gambar diklik → tampilkan popup
+    // Saat gambar diklik → tampilkan popup
     img.onclick = function() {
         popup.style.display = "block";
         popupImg.src = this.src;
@@ -39,5 +43,3 @@ window.addEventListener('load', () => {
         }
     }
 });
-
-
